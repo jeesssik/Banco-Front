@@ -57,14 +57,20 @@ body{
     width: 100%;
 }
 /*-- header --*/
+.lenk{
+    text-decoration: none;
+    color: #ffffff;
+}
+.lenk:hover, .var:hover{
+    background-color: #ffffff;
+    text-decoration: none;
+        color: #4caf50;
+}
 .var{
     color: white;
 }
 
-.var:hover{
-    background-color: #ffffff;
-    color: #4caf50;
-}
+
 
 .header {
     margin: 2em 0 0 0;
