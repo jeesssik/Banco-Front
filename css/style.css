@@ -59,7 +59,11 @@ body{
 /*-- header --*/
 .lenk{
     text-decoration: none;
+<<<<<<< HEAD
     color: #ffffff !important;
+=======
+    color: #ffffff;
+>>>>>>> f315c492f84edc4e3d9df9e6fa36d4e96075ee72
 }
 .lenk:hover, .var:hover{
     background-color: #ffffff;
