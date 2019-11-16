@@ -2,41 +2,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<title>Online Banking</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<!--<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>-->
-<!-- bootstrap-css -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--// bootstrap-css -->
-<!-- css -->
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<!--// css -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
+	<title>Online Banking</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--// css -->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet"> 
+	<!-- //font-awesome icons -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<!--
-
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script> 
-
--->
-
-<!-- flexslider -->
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<!-- //flexslider -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<![endif]-->
 </head>
 <body>
 	<div class="banner-top">
@@ -69,7 +50,7 @@
 										<h6>Todo nuestro apoyo financiero</h6>
 										<p>Disfrutá de tu cuenta 100% bonificada, descuentos, experiencias y promociones</p>
 										<div class="w3-button">
-											<a href="#" data-toggle="modal" data-target="#myModal">Ingresar</a>
+											<a href="LogIn.html" >Ingresar</a>
 										</div>
 									</div>	
 								</div>
@@ -144,10 +125,10 @@
 								<li class="active"><a href="index.html">Home</a></li>
 								<li><a href="#about" class="scroll">Nosotros</a></li>
 								<li><a href="#markets" class="scroll">Markets</a></li>
-								<li><a href="#services" class="scroll">Services</a></li>
+								<li><a href="#services" class="scroll">Servicios</a></li>
 								<li><a href="#mail" class="scroll">Contacto</a></li>
-								<div class="w31-button btn btn-primary-outline var">
-								<li><f=a href="#blog"  data-toggle="modal">INICIAR SESIÓN</a></li>
+								<a href="Select.html" class="lenk" ><div class="w31-button btn btn-primary-outline var">
+								<li>INICIAR SESIÓN</a></li>
 								</div>
 							</ul>
 						</nav>
@@ -284,8 +265,8 @@
 	<div class="markets" id="markets">
 		<div class="container">
 			<div class="wthree-heading">
-				<h3>Trading Options</h3>
-				<h5>Vivamus facilisis dolor ac sapien pharetra</h5>
+				<h3>Elegir Banco Siembra tiene muchos beneficios</h3>
+				
 			</div>
 			<div class="markets-grids">
 				<div class="col-md-4 w3ls-markets-grid">
@@ -294,8 +275,8 @@
 							<i class="fa fa-bar-chart" aria-hidden="true"></i>
 						</div>
 						<div class="icon-right">
-							<h5>Suspendisse</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+							<h5>Empresa Lider</h5>
+							<p>Somos el primer banco líder a nivel Mundial: presente en más de 40 paises, con más de 130.000 profesionales y más de 180.000 oficinas.</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -307,7 +288,7 @@
 						</div>
 						<div class="icon-right">
 							<h5>Inversiones</h5>
-							<p>Encontrá la solución ideal para cada una de tus necesidades de inversión. Plazos fijos, Fondos Comunes de Inversión, Suscripciones Primarias, y más</p>
+							<p>Encontrá la solución ideal para cada una de tus necesidades de inversión. Plazos fijos, Cuentas Corrientes,Fondos Comunes de Inversión etc.</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -318,48 +299,15 @@
 							<i class="fa fa-area-chart" aria-hidden="true"></i>
 						</div>
 						<div class="icon-right">
-							<h5>Consectetur</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+							<h5>Proyecto Internacional</h5>
+							<p>Tenemos la ventaja de trabajar en un entorno cada vez más internacional, idependientemente del país donde se encuentren.</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
 				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-signal" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Bibendum</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-money" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Vestibulum</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-briefcase" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Fermentum</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
+				
+				
+				
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -370,7 +318,7 @@
 		<div class="container">
 			<div class="wthree-heading">
 				<h3>Nuestro servicio al alcance de tu mano</h3>
-				<h5>Disfruta de todos nuestros beneficios</h5>
+				<h5>Disfruta de las ventajas de elegirnos</h5>
 			</div>
 			<div class="agile-services-grids">
 				<div class="col-md-4 agile-services-grid">
@@ -419,8 +367,8 @@
 		<div class="testimonial-dot">
 			<div class="container">
 				<div class="wthree-heading testimonial-heading">
-					<h3>Services Overview</h3>
-					<h5>Vivamus facilisis dolor ac sapien pharetra</h5>
+					<h3>SNuestros Clientes Opinana</h3>
+					<h5>Personas reales, testimoios de vida</h5>
 				</div>
 				<div class="w3-agile-testimonial">
 					<div class="slider">
@@ -440,9 +388,9 @@
 										<div class="clearfix"> </div>
 									</div>
 									<div class="testimonial-img-info">
-										<p>Nunc interdum elit nec sapien vehicula, ut blandit nulla ultrices. Sed ullamcorper metus eget efficitur rutrum. Aliquam a nunc odio. Aenean fermentum finibus efficitur.</p>
-										<h5>Peter Guptill</h5>
-										<h6>Proin blandit</h6>
+										<p>Valoro la calidad de servicio recibido. Disiparon todas mis dudas y cuestiones sobre cláusulas abusivas de mis transacciones</p>
+										<h5>Peter Parker</h5>
+										<h6>Barrendero</h6>
 									</div>
 								</li>
 								<li>
@@ -459,9 +407,9 @@
 										<div class="clearfix"> </div>
 									</div>
 									<div class="testimonial-img-info">
-										<p>Morbi est est, mollis id diam a, pellentesque dignissim lorem. Sed malesuada sed lacus sit amet vestibulum. Sed nibh purus, egestas eu orci vel, mollis interdum orci.</p>
+										<p>Me aprobaron una hipoteca con clausula de sueldo sin haberme explicado qué era. Mi juez ha disctado sentencia y he recuperado todo lo pagado. Recomiendo este banco.</p>
 										<h5>Mary Jane</h5>
-										<h6>Lorem ipsum</h6>
+										<h6>Periodista</h6>
 									</div>
 								</li>
 								<li>
@@ -478,9 +426,9 @@
 										<div class="clearfix"> </div>
 									</div>
 									<div class="testimonial-img-info">
-										<p>Proin blandit rhoncus metus porta tristique. Praesent suscipit in erat a tempor. Nullam tempor lectus ex, a auctor orci ultricies ac. Mauris sapien neque, condimentum sit</p>
-										<h5>Steven Wilson</h5>
-										<h6>Proin blandit</h6>
+										<p> Tras conocer los beneficios de contratarlos me parece una temeridad no confiar.</p>
+										<h5>Martha Sanchez</h5>
+										<h6>Cantante de Ducha</h6>
 									</div>
 								</li>
 							</ul>
